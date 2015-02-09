@@ -1,7 +1,7 @@
 from setuptools import setup
 
 MODULES = ['sqlite3', 'os.path', 'tkMessageBox', 'Tkinter', 'datetime']
-APP = ['/Users/sheye/Dropbox/iprs/EclampsiaModel.py']
+APP = ['EclampsiaModel.py']
 OPTIONS = {'argv_emulation':True, 'includes':MODULES}
 DATA_FILES = []
 
